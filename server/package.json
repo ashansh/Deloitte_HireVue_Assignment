@@ -1,0 +1,27 @@
+{
+  "name": "single-page-application",
+  "version": "1.0.0",
+  "description": "This is a assignment project for deloitte which uses Vanilla JS to buils a SPA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashansh/Deloitte_HireVue_Assignment.git"
+  },
+  "author": "Ashansh Lokhande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashansh/Deloitte_HireVue_Assignment/issues"
+  },
+  "homepage": "https://github.com/ashansh/Deloitte_HireVue_Assignment#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "html-document": "^0.8.1",
+    "jsdom": "^16.4.0"
+  }
+}

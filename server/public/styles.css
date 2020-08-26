@@ -1,0 +1,180 @@
+.parent-container {
+    margin: 5% 8%;
+}
+
+.header {
+    display: flex;
+    font-size: 14px;
+    color: grey;
+}
+
+.menu {
+    margin-left: 2%;
+    display: flex;
+}
+
+.cart-icon {
+    margin-left: 40%;
+}
+
+.action-buttons {
+    display: flex;
+    margin-left: 72%;
+}
+
+.shop, .magazine {
+    padding-left: 12%;
+}
+
+.search-text {
+    height: 2px;
+    background:red;
+    width: 10%;
+    margin-left: 70%;
+    margin-top: 0.5%;
+}
+
+.login {
+    margin-left: 5%;
+}
+
+.data-container-primary, .data-container-secondary {
+    margin-top: 3%;
+    height: 50%;
+    display: flex;
+}
+
+.left-panel {
+    width: 20%;
+}
+
+.dropdown-icon {
+    float: right;
+}
+
+.filter {
+    margin-top: 15%;
+}
+
+.filter-text {
+    color: grey;
+    font-size: 14px;
+}
+
+.slider {
+    width: 100%;
+}  
+
+.line {
+    margin-top: 4%;
+    height: 1px;
+    background: #8d8d8d;
+    width: 100%;
+}
+
+.right-panel {
+    width: 80%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-image {
+    width: 100%;
+    height: 230px;
+}
+
+.item-card {
+    width: 30%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+.checked {
+    color: black !important;
+}
+
+.hero-image-description {
+    margin-top: 3%;
+}
+
+.star {
+    color: #d8d8d8;
+}
+
+
+.left-container, .right-container {
+    width: 50%;
+}
+
+.selected-image {
+    margin: 10% 20%;
+    display: flex;
+}
+
+.alternate-image-container   {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 25%;
+}
+
+.alternate-image {
+    height: 70px;
+    width: 100px;
+} 
+
+.next-image-arrow {
+    margin-left: 20px;
+    font-size: 30px !important;
+    display: flex !important;
+    align-self: center;
+}
+
+.description-container {
+    margin: 10% 20%;
+    font-size: 14px;
+    color: gray;
+}
+
+.item-name {
+    color: cadetblue;
+}
+
+.collection-type {
+    font-size: 24px;
+    color: #274472;
+}
+
+.description {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.avail-color {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.item-price-box {
+    font-size: 20px;
+}
+
+.button {
+    background-color: #1B1C49; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 15%;
+}
+
+.disable-cards {
+    pointer-events: none;
+}

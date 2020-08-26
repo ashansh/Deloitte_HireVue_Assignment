@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-router@1.2.8/index.min.js"></script>
+  <script src="get-data.service.js"></script>
+</head>
+<body>
+    <div class="parent-container" onload="myFunction()">
+        <div class="header">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <div class="menu">
+                <span>HOME</span>
+                <span class="shop">SHOP</span>
+                <span class="magazine">MAGAZINE</span>
+            </div>
+            <div class="action-buttons">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-shopping-cart cart-icon" aria-hidden="true"></i>
+                <span class="cart-icon">LOGIN</span>
+            </div>
+        </div>
+
+        <div id="primary" class="data-container-primary">
+            <div class="left-panel filter-text">
+                <div class="filter-text">FILTER BY</div>
+                <div class="filter">
+                    <span>Collection</span>
+                    <i class="fa fa-caret-down dropdown-icon" aria-hidden="true"></i>
+                </div>
+                <div class="line"></div>
+                <div class="filter">
+                    <span>Color</span>
+                    <i class="fa fa-caret-down dropdown-icon" aria-hidden="true"></i>
+                </div>
+                <div class="line"></div>
+                <div class="filter">
+                    <span>Category</span>
+                    <i class="fa fa-caret-down dropdown-icon" aria-hidden="true"></i>
+                </div>
+                <div class="line"></div>
+                <div class="filter">
+                    <span>Price Range</span>
+                </div>
+                <input type="range" min="1" max="100" value="30" class="slider">
+                <div>
+                    <span>$500</span>
+                    <span class="dropdown-icon">$10000+</span>
+                </div>
+            </div>
+            <div class="right-panel"></div>
+        </div>
+
+        <div id="description-container"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Sofa",
+        "collectionType": "Living room",
+        "rating": 3,
+        "price": "$5000",
+        "imageUrl": "images/sofa1.jpg",
+        "color": "gold",
+        "secondaryImages": [
+          "images/sofa2.jpg",
+          "images/sofa3.jpg"
+        ],
+        "description": "A sofa is a piece of furniture that a few people can comfortably sit on together. ... Sofas are typically upholstered, with a high back and arms."
+    },
+    {
+        "name": "Chair",
+        "collectionType": "Living room",
+        "rating": 4,
+        "price": "$1000",
+        "imageUrl": "images/chair1.jpg",
+        "color": "gold",
+        "secondaryImages": [
+          "images/chair1.jpg",
+          "images/chair-2.jpg",
+          "images/chair-3.jpg"
+        ],
+        "description": "A chair is a piece of furniture. It is used for sitting on and it can also be used for standing on, if you can't reach something. They usually have four legs to support the weight."
+    },
+    {
+        "name": "Book Shelf",
+        "collectionType": "Study room",
+        "rating": 3,
+        "price": "$800",
+        "imageUrl": "images/bookshelf-1.jpg",
+        "color": "gold",
+        "secondaryImages": [
+          "images/bookshelf-2.jpg",
+          "images/bookshelf-3.jpg"
+        ],
+        "description": "A bookcase, or bookshelf, is a piece of furniture with horizontal, shelves, often in a cabinet, used to store books or other printed materials."
+    },
+    {
+        "name": "Computer Chair",
+        "collectionType": "Study room",
+        "rating": 3,
+        "price": "$500",
+        "imageUrl": "images/comp-chair-1.jpg",
+        "color": "gold",
+        "secondaryImages": [
+          "images/comp-chair-2.jpg",
+          "images/comp-chair-1.jpg"
+        ],
+        "description": "In our html file we have several divs sharing the same class. Those are the different pages (or as they are called in SPA - states) our app can show"
+    },
+    {
+        "name": "Study Table",
+        "collectionType": "Study room",
+        "rating": 3,
+        "price": "$750",
+        "imageUrl": "images/studytable1.jpg",
+        "color": "gold",
+        "secondaryImages": [
+          "images/studytable-2.jpg",
+          "images/studytable1.jpg"
+        ],
+        "description": "In our html file we have several divs sharing the same class. Those are the different pages (or as they are called in SPA - states) our app can show"
+    },
+    {
+        "name": "Bed Room Lamp",
+        "collectionType": "Bed room",
+        "rating": 5,
+        "price": "$500",
+        "imageUrl": "images/bed-room-lamp-1.jpg",
+        "color": "gold",
+        "secondaryImages": [
+          "bed-room-lamp-2.jpg",
+          "bed-room-lamp-3.jpg"
+        ],
+        "description": "ExclusiveLane 14 Inch Pyramid Shaped Wooden Home Decorative Bedroom Living Room Bedside Table Lamps for Home Decoration (12.7 cm x 12.7 cm x 35.6 cm, Turquoise Blue, Without Bulb) - Night Lamp Shades."
+    }
+]
